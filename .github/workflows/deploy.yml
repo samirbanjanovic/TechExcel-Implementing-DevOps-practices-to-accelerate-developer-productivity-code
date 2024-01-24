@@ -48,7 +48,7 @@ jobs:
         # https://github.com/azure/arm-deploy
         uses: azure/arm-deploy@v1
         with:
-          scope: ressourcegroup
+          scope: resourcegroup
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
           resourceGroupName: ${{ secrets.AZURE_RG }} 
           template: ./InfrastructureAsCode/main.bicep
