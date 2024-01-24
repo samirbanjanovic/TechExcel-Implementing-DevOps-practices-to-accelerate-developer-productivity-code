@@ -69,6 +69,8 @@ namespace RazorPagesTestSample.Data
             SaveChanges();
         }
 
+        
+
         public static List<Message> GetSeedingMessages()
         {
             return new List<Message>()
