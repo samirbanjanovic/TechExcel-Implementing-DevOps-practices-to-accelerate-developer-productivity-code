@@ -53,4 +53,4 @@ jobs:
           resourceGroupName: ${{ env.AZURE_RG }} 
           template: ./InfrastructureAsCode/main.bicep
           # Use the environment variable called targetEnv
-          parameters: environment=${{ env.AZURE_RG }}
+          parameters: environment=${{ env.targetEnv}}
